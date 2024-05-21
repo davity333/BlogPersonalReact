@@ -1,26 +1,25 @@
 import React from 'react';
 import './App.css'
-import Encabezado from './Components/Moleculas/encabezado'
-import Introduccion from './Components/Moleculas/Introduccion';
-import Personal from './Components/Moleculas/Personal';
-import Amigos from './Components/Moleculas/Amigos';
-import Texas from './Components/Moleculas/Texas';
-import Tienda from './Components/Moleculas/Tienda';
-import Instagram from './Components/Moleculas/Instagram';
 
+import Header from './Components/organismos/Header';
+import Introduction from './Components/organismos/Introduction';
+import FotosPersonal from './Components/organismos/FotosPersonal';
+import Friends from './Components/organismos/Friends';
+import FotosTexas from './Components/organismos/FotosTexas';
+import Shope from './Components/organismos/Shope';
+import Ig from './Components/organismos/Ig';
 
 
 function App() {
   return (
     <>
-    
-    <Encabezado></Encabezado>
-    <Introduccion></Introduccion>
-    <Personal></Personal>
-    <Amigos></Amigos>
-    <Texas></Texas>
-    <Tienda></Tienda>
-    <Instagram></Instagram>
+    <Header></Header>
+    <Introduction></Introduction>
+    <FotosPersonal></FotosPersonal>
+    <Friends></Friends>
+    <FotosTexas></FotosTexas>
+    <Shope></Shope>
+    <Ig></Ig>
     </>
   )
   
