@@ -78,5 +78,42 @@
 
 #precioUno{
     position: absolute;
-    font-size: 30px;
+    font-size: 55px;
+    margin-top: 430%;
+    left: 15%;
+    color: rgb(171, 43, 43);
+
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: 4px 4px 16px rgba(82, 15, 15, 0.67);
+}
+
+#precioDos{
+    position: absolute;
+    font-size: 55px;
+    margin-top: 430%;
+    left: 48%;
+    color: rgb(171, 43, 43);
+
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: 4px 4px 16px rgba(82, 15, 15, 0.67);
+}
+
+#precioTres{
+    position: absolute;
+    font-size: 55px;
+    margin-top: 430%;
+    left: 81%;
+    color: rgb(171, 43, 43);
+
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: 4px 4px 16px rgba(82, 15, 15, 0.67);
 }

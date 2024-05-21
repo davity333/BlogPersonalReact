@@ -21,7 +21,9 @@ function Tienda(){
         <img src={slaughter} id={style.slaughter} />
         <img src={taquero} id={style.taquero} />
 
-        <AtomoTxtPrecioUno preciouno={"25$"}></AtomoTxtPrecioUno>
+        <AtomoTxtPrecioUno preciouno={"18$"}></AtomoTxtPrecioUno>
+        <AtomoTxtPrecioUno precioDos={"25$"}></AtomoTxtPrecioUno>
+        <AtomoTxtPrecioUno precioTres={"40$"}></AtomoTxtPrecioUno>
         </>
     )
     
