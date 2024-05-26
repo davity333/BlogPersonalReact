@@ -294,3 +294,28 @@ background: -moz-linear-gradient(0deg,#dc00ff 0%, #1e00ff 80%);
     margin-top: -5px;
     right: 30px;
 }
+
+#inicio{
+    position: absolute;
+    height: 55px;
+    margin-top: -25.4%;
+    left: 17%;
+
+    &:hover {
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+        cursor: pointer;
+    }
+}
+
+#registro{
+    position: absolute;
+    height: 55px;
+    margin-top: -25.4%;
+    right: 12.5%;
+
+    &:hover {
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+        cursor: pointer;
+    }
+
+}
